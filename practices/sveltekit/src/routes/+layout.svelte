@@ -17,6 +17,7 @@
 	<a href="/path_param">[ 경로 변수 ]</a>
 	<a href="/page_data">[ 페이지 데이터 ]</a>
 	<a href="/url_data">[ URL 데이터 ]</a>
+	<a href="/actions">[ 폼 액션 ]</a>
 </div>
 
 <h1>Main Layout</h1>
@@ -31,6 +32,7 @@
 		padding: 0.5rem;
 		border: 1px solid black;
 		display: flex;
+		flex-wrap: wrap;
 	}
 	.nav > a {
 		margin-right: 0.5rem;
